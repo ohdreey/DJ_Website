@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'bewareregular';
+    src: url('beware__-webfont.woff2') format('woff2'),
+         url('beware__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    
+}
+
+
+IMG.logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    width: 250px;
+    margin-top: 0;
+   
+}
+
+IMG.HomeWallPaper {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 80;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'bewareregular';
+    font-size: 35px;
+}
+
+li a:hover:not(.active){
+    color: tomato;
+}
