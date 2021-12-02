@@ -52,27 +52,98 @@ body {
 header{
   padding: 15px;
   display: flex;
-  justify-content: end;
-  flex-direction: row;   
-  height: 140px; 
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 12vw;
+}
+
+.holderImage {
+  width: 11vw;
 }
 
 .holderSocial {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 150px;
+  width: 12vw;
+  align-items: center;
 }
 
 .social > i {
-  font-size: 36px;
+  font-size: 2vw;
   cursor: pointer;
   color: black
 }
 
 .social > i:hover {
   transition: ease-in 0.5s;
-  color: tomato;
+  color: #847577;
 }
 
 /* fin header */
+
+/* début navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'bewareregular';
+  font-size: 1.7vw;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #A6A2A2;
+    transition: width .3s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+#menuIcon {
+  display: none;
+}
+/* fin navbar */
+
+@media screen and (max-width: 1000px){
+  li{
+    display: none;
+  }
+
+  #menuIcon {
+    display: block;
+  }
+}
