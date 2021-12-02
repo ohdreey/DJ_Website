@@ -1,0 +1,13 @@
+section {
+  display: flex;
+}
+
+.title {
+  text-align: center;
+  font-family: 'bewareregular';
+
+}
+
+#audreyBio {
+  width: 10vh;
+}

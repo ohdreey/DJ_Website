@@ -31,7 +31,10 @@ html, body {
 }
 
 h1 {
-  font-size: 18px;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  font-size: 4vw;
 }
 
 h2 {
@@ -45,6 +48,7 @@ h3 {
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
 }
 
 /* header */
@@ -64,6 +68,10 @@ header{
 
 .holderImage {
   width: 11vw;
+}
+
+.title {
+  justify-content: end;
 }
 
 .holderSocial {
@@ -88,12 +96,17 @@ header{
 /* fin header */
 
 /* début navbar */
+nav {
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: var(--secondary-color);
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -139,11 +152,49 @@ a:hover::after {
 /* fin navbar */
 
 @media screen and (max-width: 1000px){
+/* début header */
+.holderSocial {
+  width: 20vw;
+}
+
+.social > i {
+  font-size: 3vw;
+}
+
+/* fin header */
+  
+/* début footer */
+  
+  ul {
+    line-height: 1;
+  }
+  
+  nav {
+    display: flex;
+  }
+
   li{
     display: none;
   }
 
-  #menuIcon {
+  li a, #menuIcon {
     display: block;
+    font-size: 3vw;
   }
+
+  .navbar.responsive {
+    flex-direction: column;
+  }
+  
+  .navbar.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  li:hover::after {
+    width: 100%;
+  }
+
 }
+/* fin footer */

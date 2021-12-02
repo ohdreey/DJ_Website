@@ -5,7 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css" href="bio.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bio.css">
   <script src="https://kit.fontawesome.com/0e2558cdea.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,6 +14,7 @@
     <div class="holderImage">
       <img  class = "logo" src="https://i.ibb.co/L597QSL/logo-petit.png" alt="logo">
     </div>
+    <h1 class="title">Still Drey</h1>
     <div class="holderSocial">
       <a href="https://www.instagram.com/stilldreyy/" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
       <a href="https://www.youtube.com/channel/UCFtyfmlb8tASqa5l8R0cptA" target="_blank" class="social"><i class="fab fa-youtube"></i></a>
@@ -21,21 +23,38 @@
     </div>
   </header>
   <main>
-    <h1>Still Dre</h1>
+    <section>
+    <div>
+      <img src="./assets/audreyBio.jpg" alt="Still Drey Bio"  id="audreyBio">
+    </div>
+    <p>
+      Après un passage à Bangkok, Still Drey re-dépose ses platines à Paris. Membre du collectif Black Square, elle flirte avec différents genres et puise ses inspirations dans la musique afro-américaine et créole. Son unique envie? Partager son amour pour la house / dance underground, le disco, la funk, l’afro et tout ce qui fera danser son audience. Pleine d’énergie, elle diffuse son enthousiasme au public en leur proposant une sélection pointue.
+    </p>
+    </section>
   </main>
   <footer>
     <nav>
-      <ul id="navbar">
+      <ul class="navbar" id="bottomNavbar">
         <li><a>HOME</a></li>
         <li><a>BIO</a></li>
-        <li><a>MUSIQUE</a></li>
-        <li><a>VIDEO/LIVE</a></li>
+        <li><a>MIX</a></li>
+        <li><a>VIDEOS</a></li>
         <li><a>PHOTOS</a></li>
         <li><a>DATES</a></li>
         <li><a>CONTACT</a></li>
-        <li id="menuIcon"><a>&#9776;</a></li>
+        <li id="menuIcon"><a href="javascript:void(0);" class="icon" id="menuIcon" onclick="myFunction()">&#9776;</a></li>
       </ul>
     </nav>
   </footer>
+  <script>
+    function myFunction() {
+      const x = document.getElementById("bottomNavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+    </script>
 </body>
 </html>
