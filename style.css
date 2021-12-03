@@ -47,45 +47,6 @@ body {
   padding: 0;
 }
 
-/* header */
-
-header{
-  padding: 15px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  width: 12vw;
-}
-
-.holderImage {
-  width: 11vw;
-}
-
-.holderSocial {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 12vw;
-  align-items: center;
-}
-
-.social > i {
-  font-size: 2vw;
-  cursor: pointer;
-  color: black
-}
-
-.social > i:hover {
-  transition: ease-in 0.5s;
-  color: #847577;
-}
-
-/* fin header */
 
 /* début navbar */
 ul {
