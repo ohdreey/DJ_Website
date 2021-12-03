@@ -65,13 +65,10 @@ main {
   background-color: #717171;
 }
 
+
 @media screen and (max-width: 600px) { 
   .mySlides img{
     width: 100%;
-  }
-
-  body{
-    min-height: 100%;
   }
 
   main {
