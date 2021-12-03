@@ -6,6 +6,17 @@
     font-style: normal;
 }
 
+:root {
+    --primary-color: rgb(240, 235, 235);
+    --secondary-color: rgb(20, 20, 20);
+    --third-color: #E5E6E4;
+    --text-color-light: rgb(240, 235, 235);
+    --text-color-dark: rgb(20, 20, 20);
+  
+    --title-font: 'bewareregular', sans-serif;
+    --text-font: 'Montserrat', sans-serif; 
+}
+
 
 * {
     box-sizing: border-box;
@@ -13,16 +24,41 @@
     text-decoration: none;
 }
 
-body {
+html,body {
     margin:0;
+    height: 100%;
+    width: 100%;
 }
+
+h1 {
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  h3 {
+    font-size: 14px;
+  }
+
+  body {
+        margin: 0;
+        padding: 0; 
+        background: linear-gradient(0deg, rgba(132,117,119,1) 12%, rgba(198,187,188,1) 51%, rgba(247,239,239,1) 100%);
+  }
 
 header{
     padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;   
     height: 140px; 
+    width: 100%;
+}
+
+.holderHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .holderSocial {
@@ -35,7 +71,7 @@ header{
 .social > i {
     font-size: 2vw;
     cursor: pointer;
-    color: black
+    color: rgb(20, 20, 20)
 }
 
 .social > i:hover {
@@ -43,12 +79,17 @@ header{
     color: #847577;
 }
 
+iframe {
+    width: 30vw;
+    height: 13vh;
+}
+
 
 IMG.logo {
     margin-left: auto;
     margin-right: auto;
-    height: 220px;
-    width: 350px;
+    height: 22vh;
+    width: 17vw;
     margin-top: 0;
     position: absolute;
     left: 50%;
@@ -59,7 +100,7 @@ IMG.logo {
 IMG.HomeWallPaper {
     margin-left: auto;
     margin-right: auto;
-    width: 522px;
+    width: 30vw;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -67,7 +108,7 @@ IMG.HomeWallPaper {
 }
 
 .container {
-    height: 82vh;
+    height: 88vh;
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
@@ -100,7 +141,7 @@ IMG.HomeWallPaper {
 .bar {
     display: inline-block;
     width: 25px;
-    background-color: #847577;
+    background-color: rgb(20, 20, 20);
     margin: 0 1rem;
 }
 
@@ -109,8 +150,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-     background-color: black;
-    position: absolute;
+     background-color: rgb(20, 20, 20);
+    position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
@@ -125,7 +166,7 @@ li {
   }
 
 
-li a {
+nav ul li a {
     display: block;
     color: white;
     padding: 14px 16px;
@@ -148,4 +189,9 @@ li a::after {
 
 a:hover::after{
     width: 100%;
+}
+
+@media screen and (max-width: 820px) {
+
+    
 }
