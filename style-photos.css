@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,600&family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap%27');
+@font-face {
+  font-family: 'bewareregular';
+  src: url('beware__-webfont.woff2') format('woff2'),
+       url('beware__-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* header */
+
+header{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 12vw;
+}
+
+.holderImage {
+  width: 11vw;
+}
+
+.holderSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 12vw;
+  align-items: center;
+}
+
+.social > i {
+  font-size: 2vw;
+  cursor: pointer;
+  color: black
+}
+
+.social > i:hover {
+  transition: ease-in 0.5s;
+  color: #847577;
+}
+
+/* fin header */
+
+h1 {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: flex-end;
+  justify-content: center;
+  font-family: 'bewareregular';
+  font-size: 50px;
+ }
+
+ body {
+  margin:0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+html {
+  background: rgb(132,117,119);
+  background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
+}
+
+main {
+  width: 100%;
+  height: 82%;
+}
+
+.slideshow-container {
+  max-width: 100vw;
+  position: relative;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  justify-content: center;
+}
+
+.mySlides img{
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 43%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  transition-duration: 1s;
+  background-color: #717171;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+   background-color: rgb(20, 20, 20);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'bewareregular';
+  font-size: 1.7vw;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #A6A2A2;
+  transition: width .3s;
+}
+
+a:hover::after{
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) { 
+  .mySlides img{
+    width: 100%;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10vh;
+  }
+
+  header{
+    height: 20vh;
+    padding: 2vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    width: 20vw;
+  }
+
+  .holderImage {
+    width: 30vw;
+  }
+
+  .social > i {
+    padding-top: 1vh;
+    font-size: 6vw;
+  }
+
+  .holderSocial {
+    width: 30vw;
+    align-items: flex-start;
+  }
+
+  .titrepage {
+    font-size: 126%;
+   }
+  } 

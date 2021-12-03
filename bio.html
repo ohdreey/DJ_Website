@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bio.css">
+  <script src="https://kit.fontawesome.com/0e2558cdea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="holderImage">
+      <img  class = "logo" src="https://i.ibb.co/L597QSL/logo-petit.png" alt="logo">
+    </div>
+    <h1 class="title">BIO</h1>
+    <div class="holderSocial">
+      <a href="https://www.instagram.com/stilldreyy/" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/channel/UCFtyfmlb8tASqa5l8R0cptA" target="_blank" class="social"><i class="fab fa-youtube"></i></a>
+      <a href="https://twitter.com/stilldreyy" target="_blank" class="social"><i class="fab fa-twitter"></i></a>
+      <a href="https://soundcloud.com/still_drey" target="_blank" class="social"><i class="fab fa-soundcloud"></i></a>
+    </div>
+  </header>
+  <main>
+    <section>
+    <div class="bioImg">
+      <img src="./assets/audreyBio.jpg" alt="Still Drey Bio"  id="audreyBio">
+    </div>
+    <p class="biographie">
+      <span class="even">Après passage à Bangkok, Still Drey re-dépose ses platines à Paris.</span><br>
+      <span class="odd">Membre du collectif Black Square, elle flirte avec différents genres et puise ses inspirations dans la musique afro-américaine et créole.</span><br>
+      <span class="even">Son unique envie? Partager son amour pour la house / dance underground, le disco, la funk, l’afro et tout ce qui fera danser son audience.</span><br>
+      <span class="odd">Pleine d’énergie, elle diffuse son enthousiasme au public en leur proposant une sélection pointue.</span>
+    </section>
+  </main>
+  <footer>
+    <nav>
+      <ul class="navbar" id="bottomNavbar">
+        <li>
+          <a href="index.html">HOME</a>  
+      </li>
+      <li>
+          <a href="bio.html">BIO</a>       
+      </li>
+      <li>
+          <a href="mix.html">MIX</a> 
+      </li>
+      <li>
+          <a href="videos.html">VIDEOS/LIVES</a>
+      </li>
+      <li>
+          <a href="photos.html">PHOTOS</a>
+      </li>
+      <li>
+          <a>EVENTS</a>
+      </li>
+      <li>
+          <a href="contact.html">CONTACT</a>
+      </li>
+        <li id="menuIcon"><a href="javascript:void(0);" class="icon" id="menuIcon" onclick="myFunction()">&#9776;</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script>
+    function myFunction() {
+      const x = document.getElementById("bottomNavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+    </script>
+</body>
+</html>
