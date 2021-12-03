@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'bewareregular';
+    src: url('beware__-webfont.woff2') format('woff2'),
+         url('beware__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin:0;
+}
+
+
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 140px
+}
+
+#titrepage {
+    font-family: 'bewareregular';
+    display: flex;
+    font-size: 65px;    
+}
+
+.holderSocial {
+    display: flex;
+    justify-content: space-around;
+    justify-content: right;
+    width: 13vw;    
+
+}
+
+#datesav {
+    font-size: 30px;
+    font-family: 'bewareregular';
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+
+.eventsdates {
+    flex-direction: column;
+}
+
+
+
+.social > i {
+    font-size: 2vw;
+    cursor: pointer;
+    color: black
+}
+
+.social > i:hover {
+    transition: ease-in 0.5s;
+    color: #847577;
+}
+
+
+IMG.logo {
+    height: 100px;
+    width: 200px;
+    margin-top: 0;
+    transform: translateX(-50%);
+    top: 20px;
+    justify-content: left;
+}
+
+
+.container {
+    height: 82vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.equalizer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+}
+
+.container2 {
+    height: 0vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.equalizer2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+}
+
+
+.bar {
+    display: inline-block;
+    width: 25px;
+    background-color: #847577;
+    margin: 0 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    line-height: 1;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+  }
+
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'bewareregular';
+    font-size: 1.7vw;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #A6A2A2;
+    transition: width .3s;
+}
+
+a:hover::after{
+    width: 100%;
+}
