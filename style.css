@@ -49,6 +49,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
+  /* background: linear-gradient(0deg, rgba(132,117,119,1) 12%, rgba(198,187,188,1) 51%, rgba(247,239,239,1) 100%); */
 }
 
 /* header */
@@ -127,7 +128,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
   text-align: center;
-  font-family: 'bewareregular';
+  font-family: var(--title-font);
   font-size: 1.7vw;
   transition: 0.3s ease;
   cursor: pointer;
@@ -196,5 +197,5 @@ a:hover::after {
     width: 100%;
   }
 
-}
+  }
 /* fin footer */
