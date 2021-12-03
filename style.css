@@ -46,6 +46,7 @@ h1 {
         margin: 0;
         padding: 0; 
         background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
+        min-height: 100vh;
   }
 
 header{
@@ -190,6 +191,150 @@ li a::after {
 a:hover::after{
     width: 100%;
 }
+#menuIcon {
+    display: none;
+  }
 
-@media screen and (max-width: 820px) {
-}
+@media screen and (max-width: 650px){
+    /* début header */
+  .holderSocial {
+    width: 20vw;
+  }
+  
+  .social > i {
+    font-size: 3vw;
+  }
+  
+  /* fin header */
+    
+    section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bioImg {
+      display: flex;
+      justify-content: center;
+      margin: 4vh;;
+      max-width: 0;
+      margin-right: 0;
+      margin-top: 0;
+      margin-left: 0;
+    }
+  
+    #audreyBio {  
+      max-height: 25vh;
+    }
+  
+    .biographie {
+      margin: 4vh 20vw;
+      text-align: justify;
+      font-size: 2vh;
+      font-family: var(--text-font);
+      font-weight: bold;
+    }
+  
+    .even {
+      padding-right: 0;
+    }
+  
+    .odd {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+
+@media screen and (max-width: 650px){  
+
+  
+    /* début footer */
+      
+      ul {
+        line-height: 1; 
+       
+      }
+      
+      nav {
+        display: flex;
+      }
+    
+      li{
+        display: none;
+      }
+    
+      li a, #menuIcon {
+        display: block;
+        font-size: 3vw;
+      }
+    
+      .navbar.responsive {
+        flex-direction: column;
+      }
+      
+      .navbar.responsive li {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    
+      li:hover::after {
+        width: 100%;
+        } 
+
+        footer {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        }
+
+     /* fin footer */
+
+
+     IMG.HomeWallPaper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 89vw;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0px;
+        }  
+        
+     IMG.logo {
+        margin-left: auto;
+        margin-right: auto;
+        height: 15vh;
+        width: 30vw;
+        margin-top: 0;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
+        }
+
+      iframe {
+        width: 16vw;
+        height: 15vh;
+        } 
+
+     .social > i {
+        font-size: 6vw;
+        cursor: pointer;
+        color: rgb(20, 20, 20)
+       } 
+     .holderSocial {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 30vw;    
+      } 
+      .container2 {
+          display: none;
+      } 
+      .container {
+          display: none;
+      }
+      
+    }

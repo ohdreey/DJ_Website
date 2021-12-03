@@ -149,56 +149,7 @@ header{
   color: #847577;
 }
 
-/* fin header */
-
-@media screen and (max-width: 650px){
-  /* début header */
-.holderSocial {
-  width: 20vw;
-}
-
-.social > i {
-  font-size: 3vw;
-}
-
-/* fin header */
-  
-  section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .bioImg {
-    display: flex;
-    justify-content: center;
-    margin: 4vh;;
-    max-width: 0;
-    margin-right: 0;
-    margin-top: 0;
-    margin-left: 0;
-  }
-
-  #audreyBio {  
-    max-height: 25vh;
-  }
-
-  .biographie {
-    margin: 4vh 20vw;
-    text-align: justify;
-    font-size: 2vh;
-    font-family: var(--text-font);
-    font-weight: bold;
-  }
-
-  .even {
-    padding-right: 0;
-  }
-
-  .odd {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
+/* fin header */ 
 
 /* début navbar */
 nav {
@@ -257,12 +208,62 @@ a:hover::after {
 /* fin navbar */
 
 @media screen and (max-width: 650px){
+  /* début header */
+.holderSocial {
+  width: 20vw;
+}
+
+.social > i {
+  font-size: 3vw;
+}
+
+/* fin header */
+  
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bioImg {
+    display: flex;
+    justify-content: center;
+    margin: 4vh;;
+    max-width: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  #audreyBio {  
+    max-height: 25vh;
+  }
+
+  .biographie {
+    margin: 4vh 20vw;
+    text-align: justify;
+    font-size: 2vh;
+    font-family: var(--text-font);
+    font-weight: bold;
+  }
+
+  .even {
+    padding-right: 0;
+  }
+
+  .odd {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 650px){
 
   
 /* début footer */
   
   ul {
-    line-height: 1;
+    line-height: 1; 
+    padding-inline-end: 0px;
   }
   
   nav {
