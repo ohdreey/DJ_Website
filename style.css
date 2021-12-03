@@ -152,7 +152,7 @@ a:hover::after {
 }
 /* fin navbar */
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 650px){
 /* début header */
 .holderSocial {
   width: 20vw;

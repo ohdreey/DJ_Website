@@ -30,7 +30,7 @@ section {
   max-height: 50vh;
   text-align: justify;
   margin-bottom: 0;
-  font-size: 2.2vh;
+  font-size: 2vh;
   margin-right: 7vw;
   margin-top: 22vh;
   font-family: var(--text-font);
@@ -44,4 +44,49 @@ section {
 .odd {
   padding-left: 10vw;
   padding-right: 4vw;
+}
+
+
+@media screen and (max-width: 650px){
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bioImg {
+    display: flex;
+    justify-content: center;
+    margin: 4vh;;
+    max-width: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  #audreyBio {  
+    max-height: 25vh;
+  }
+
+  .biographie {
+    margin: 4vh 20vw;
+    text-align: justify;
+    /* display: flex; */
+    /* max-height: 50vh; */
+    /* text-align: justify; */
+    /* margin-bottom: 0; */
+    font-size: 2vh;
+    /* margin-right: 7vw; */
+    /* margin-top: 22vh; */
+    font-family: var(--text-font);
+    font-weight: bold;
+  }
+
+  .even {
+    padding-right: 0;
+  }
+
+  .odd {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
