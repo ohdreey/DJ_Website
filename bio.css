@@ -1,3 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,600&family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap%27');
+@font-face {
+  font-family: 'bewareregular';
+  src: url('beware__-webfont.woff2') format('woff2'),
+       url('beware__-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+    --primary-color: rgb(240, 235, 235);
+    --secondary-color: rgb(20, 20, 20);
+    --third-color: #E5E6E4;
+    --text-color-light: rgb(240, 235, 235);
+    --text-color-dark: rgb(20, 20, 20);
+  
+    --title-font: 'bewareregular', sans-serif;
+    --text-font: 'Montserrat', sans-serif; 
+}
+
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html,body {
+    margin:0;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-size: 18px;
+  }
+  
+  h2 {
+    font-size: 16px;
+  }
+  
+  h3 {
+    font-size: 14px;
+  }
+
+  body {
+        margin: 0;
+        padding: 0; 
+        background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
+  }
+
 section {
   display: flex;
   width: 100%;
@@ -5,9 +56,18 @@ section {
 }
 
 .title {
-  text-align: center;
-  font-family: var(--title-font);
-}
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: flex-end;
+    justify-content: center;
+    font-family: 'bewareregular';
+    font-size: 50px; 
+  }
+   
+  
 
 #audreyBio {  
   max-height: 40vh;
