@@ -256,6 +256,10 @@ a:hover::after {
   }
 }
 
+/* #menuIcon {
+  position: fixed;
+} */
+
 @media screen and (max-width: 650px){
 
   
@@ -263,31 +267,43 @@ a:hover::after {
   
   ul {
     padding-inline-end: 0px;
+    height: 10%;
   }
   
   nav {
     display: flex;
   }
 
+  
   li{
     display: none;
   }
-
+  
   li a, #menuIcon {
     display: block;
     font-size: 5vw;
   }
-
+  
   .navbar.responsive {
     flex-direction: column;
-    height: 100%;
+    animation: slide 0.3s forwards;
+    transition: ease-in-out 1s;
   }
   
+  @keyframes slide {
+    from {
+      height: 10%;
+    }
+    to {
+      height:100%;
+    }  
+  }
+
   .navbar.responsive li {
     float: none;
     display: block;
     text-align: left;
-  }
+    }
 
   li:hover::after {
     width: 100%;
