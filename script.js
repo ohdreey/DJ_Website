@@ -38,3 +38,9 @@
             }
         }, 5);
     }
+
+    if (window.matchMedia("(min-width: 600px)").matches) {
+        /* La largeur minimum de l'affichage est 600 px inclus /
+      } else {
+        / L'affichage est inférieur à 600px de large */
+      }

@@ -24,12 +24,6 @@
     text-decoration: none;
 }
 
-html,body {
-    margin:0;
-    height: 100%;
-    width: 100%;
-}
-
 h1 {
     font-size: 18px;
   }
@@ -45,8 +39,10 @@ h1 {
   body {
         margin: 0;
         padding: 0; 
-        background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
-        min-height: 100vh;
+        background: fixed linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
+        height: 100vh;
+        width: auto;
+        
   }
 
 header{
@@ -66,13 +62,15 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 13vw;    
+    width: 20vh;    
 }
 
 .social > i {
-    font-size: 2vw;
+    font-size: 4vh;
     cursor: pointer;
-    color: rgb(20, 20, 20)
+    color: rgb(20, 20, 20);
+    width: auto;
+    
 }
 
 .social > i:hover {
@@ -89,8 +87,8 @@ iframe {
 IMG.logo {
     margin-left: auto;
     margin-right: auto;
-    height: 22vh;
-    width: 17vw;
+    height: 20vh;
+    width: auto;
     margin-top: 0;
     position: absolute;
     left: 50%;
@@ -101,7 +99,8 @@ IMG.logo {
 IMG.HomeWallPaper {
     margin-left: auto;
     margin-right: auto;
-    width: 30vw;
+    width: auto;
+    height: 75vh;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -151,7 +150,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-     background-color: rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -167,7 +166,7 @@ li {
   }
 
 
-nav ul li a {
+ li a {
     display: block;
     color: white;
     padding: 14px 16px;
@@ -195,146 +194,113 @@ a:hover::after{
     display: none;
   }
 
-@media screen and (max-width: 650px){
-    /* début header */
-  .holderSocial {
-    width: 20vw;
-  }
-  
-  .social > i {
-    font-size: 3vw;
-  }
-  
-  /* fin header */
-    
-    section {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .bioImg {
-      display: flex;
-      justify-content: center;
-      margin: 4vh;;
-      max-width: 0;
-      margin-right: 0;
-      margin-top: 0;
-      margin-left: 0;
-    }
-  
-    #audreyBio {  
-      max-height: 25vh;
-    }
-  
-    .biographie {
-      margin: 4vh 20vw;
-      text-align: justify;
-      font-size: 2vh;
-      font-family: var(--text-font);
-      font-weight: bold;
-    }
-  
-    .even {
-      padding-right: 0;
-    }
-  
-    .odd {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-  
 
 @media screen and (max-width: 650px){  
 
+  /* début header */
+
+  .social > i {
+    font-size: 6vw;
+    cursor: pointer;
+    color: rgb(20, 20, 20)
+  } 
+
+ .holderSocial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30vw;    
+  } 
+
+  .social > i {
+    font-size: 7vw;
+    padding-left: 4px;
+  }
   
-    /* début footer */
-      
-      ul {
-        line-height: 1; 
-       
-      }
-      
-      nav {
-        display: flex;
-      }
+ /* fin header */
     
-      li{
-        display: none;
-      }
+  
+ /* début footer */
+
     
-      li a, #menuIcon {
-        display: block;
-        font-size: 3vw;
-      }
+  nav {
+    display: flex;
+  }
     
-      .navbar.responsive {
-        flex-direction: column;
-      }
-      
-      .navbar.responsive li {
-        float: none;
-        display: block;
-        text-align: left;
-      }
+  li {
+    display: none;
+  }
     
-      li:hover::after {
-        width: 100%;
-        } 
+  li a, #menuIcon {
+    display: block;
+    font-size: 5vw;
+  }
+    
+  .navbar.responsive {
+    flex-direction: column;
+    animation: slide 0.3s forwards;
+    transition: ease-in-out 1s;
+  }
 
-        footer {
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-
-        }
-
-     /* fin footer */
-
-
-     IMG.HomeWallPaper {
-        margin-left: auto;
-        margin-right: auto;
-        width: 89vw;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: 0px;
-        }  
-        
-     IMG.logo {
-        margin-left: auto;
-        margin-right: auto;
-        height: 15vh;
-        width: 30vw;
-        margin-top: 0;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 20px;
-        }
-
-      iframe {
-        width: 16vw;
-        height: 15vh;
-        } 
-
-     .social > i {
-        font-size: 6vw;
-        cursor: pointer;
-        color: rgb(20, 20, 20)
-       } 
-     .holderSocial {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 30vw;    
-      } 
-      .container2 {
-          display: none;
-      } 
-      .container {
-          display: none;
-      }
-      
+  @keyframes slide {
+    from {
+      height: 10%;
     }
+    to {
+      height:100%;
+    }  
+  }
+      
+  .navbar.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+    
+  li:hover::after {
+    width: 100%;
+  } 
+
+  /* fin footer */
+
+  /* Début main image + lecteur + equalizer */  
+
+  IMG.HomeWallPaper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    height: 70vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0px;
+  }  
+        
+  IMG.logo {
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vh;
+    width: 30vw;
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+  }
+
+  iframe {
+  width: 16vw;
+  height: 15vh;
+  } 
+
+  .container2 {
+  display: none;
+  } 
+
+  .container {
+  display: none;
+  }
+      
+  /* Fin main image + lecteur + equalizer */ 
+
+}
