@@ -26,11 +26,10 @@
   box-sizing: border-box;
 }
 
-html, body {
+body {
   height: 100%;
   width: 100%;
-  background: rgb(132,117,119);
-background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
+  background-color: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
 }
 
 h1 {
@@ -97,7 +96,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: rgb(20, 20, 20);
-  position: fixed;
+
   bottom: 0;
   width: 100%;
   display: flex;
@@ -107,7 +106,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  display: inline-block; 
   position: relative;
 }
 
