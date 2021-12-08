@@ -90,7 +90,7 @@ section {
   max-height: 50vh;
   text-align: justify;
   margin-bottom: 0;
-  font-size: 2vh;
+  font-size: 1.5rem;
   margin-right: 7vw;
   margin-top: 22vh;
   font-family: var(--text-font);
@@ -106,6 +106,9 @@ section {
   padding-right: 4vw;
 }
 
+.lastPart {
+  padding-bottom: 15vh;
+}
 
 /* header */
 
@@ -134,14 +137,15 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 12vw;
+  width: 20vh;
   align-items: center;
 }
 
 .social > i {
-  font-size: 2vw;
+  font-size: 4vh;
   cursor: pointer;
-  color: black
+  color: rgb(20, 20, 20);
+  width: auto;
 }
 
 .social > i:hover {
@@ -209,12 +213,25 @@ a:hover::after {
 
 @media screen and (max-width: 650px){
   /* début header */
+
+  .logo {
+    width: 18vw;
+  }
+
+  .title {
+    position: relative;
+    right: -9vw;
+    top: 6vh;
+    padding-bottom: 7vh;
+  }
+
   .holderSocial {
-    width: 20vw;
+    width: 30vw;
+    align-items: flex-start;
   }
 
   .social > i {
-    font-size: 3vw;
+    font-size: 6vw;
   }
 
 /* fin header */
