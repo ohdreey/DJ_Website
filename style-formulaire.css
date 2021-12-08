@@ -1,3 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,400;1,600&family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap%27');
+@font-face {
+  font-family: 'bewareregular';
+  src: url('beware__-webfont.woff2') format('woff2'),
+       url('beware__-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+:root {
+  --primary-color: rgb(240, 235, 235);
+  --secondary-color: rgb(20, 20, 20);
+  --third-color: #E5E6E4;
+  --text-color-light: rgb(240, 235, 235);
+  --text-color-dark: rgb(20, 20, 20);
+
+  --title-font: 'bewareregular', sans-serif;
+  --text-font: 'Montserrat', sans-serif;
+
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: auto;
+  background: fixed linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+header{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 12vw;
+}
+
+.holderImage {
+  width: 11vw;
+}
+
+.holderSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 12vw;
+  align-items: center;
+}
+
+.social > i {
+  font-size: 2vw;
+  cursor: pointer;
+  color: rgb(20, 20, 20);
+}
+
+.social > i:hover {
+    transition: ease-in 0.5s;
+    color: #847577;
+}
+
+/* fin header */
+
+
 #contactezSDMA {
     
   padding: 0;
@@ -211,15 +303,15 @@ nav {
 
 #contactezSDMA {
     position: relative;
-    right: -15vw;
+    right: -12vw;
     top: 6vh;
     font-size: 25px;
     padding-bottom: 2vh;
+    text-align: center;
 
   }
 
-  html, body {
-    background: rgb(132,117,119);
+  html, body { 
   background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
   }
         
@@ -279,10 +371,10 @@ nav {
 
 .buttonMa {
     margin: 20px;
-    height: 20px;
-    width: 100px;
+    height: 40px;
+    width: 130px;
     font-family: 'bewareregular';
-    font-size: 10px;
+    font-size: 15px;
     border-radius: 10px;
     background-color: rgb(20, 20, 20);
     color: whitesmoke;
@@ -338,6 +430,6 @@ nav {
 
   }
 /* fin footer */
-}
+
 
 
