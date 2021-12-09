@@ -1,0 +1,80 @@
+@media screen and (max-width: 650px)
+{
+    /* début header */
+
+  .logo {
+    width: 22vw;
+  }
+
+  .title {
+    position: relative;
+    padding-bottom: 7vh;
+  }
+
+  .holderSocial {
+    width: 30vw;
+    align-items: flex-start;
+  }
+
+  .social > i {
+    font-size: 6vw;
+  }
+
+/* fin header */
+    .parent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     }
+
+    iframe {
+    width: 300px;
+    height: 300px;
+    }
+    
+    .popup {
+        width: 324px;
+    }
+    /* début footer */
+  
+  nav {
+    display: flex;
+  }
+
+  
+  li{
+    display: none;
+  }
+  
+  li a, #menuIcon {
+    display: block;
+    font-size: 5vw;
+  }
+  
+  .navbar.responsive {
+    flex-direction: column;
+    animation: slide 0.3s forwards;
+    transition: ease-in-out 1s;
+  }
+  
+  @keyframes slide {
+    from {
+      height: 10%;
+    }
+    to {
+      height:100%;
+    }  
+  }
+
+  .navbar.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+  li:hover::after {
+    width: 100%;
+  }
+
+}
+/* fin footer */
