@@ -1,47 +1,54 @@
 /* header */
-header {
+
+header{
+  padding: 15px;
   display: flex;
   justify-content: space-between;
-
-
+  flex-direction: row;
 }
+
 .logo {
+  display: flex;
+  align-items: center;
+  width: 12vw;
+}
+
+.holderImage {
+  width: 11vw;
+}
+
+.title {
+   margin: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
-    width: 20vh;
-  }
-  
-  .holderImage {
-    width: 11vw;
-  }
-  
-  .holderSocial {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 20vh;
-    align-items: center;
-  }
-  
-  .social > i {
-    font-size: 4vh;
-    cursor: pointer;
-    color: rgb(20, 20, 20)
-  }
-  
-  .social > i:hover {
-    transition: ease-in 0.5s;
-    color: #847577;
-  }
-  .titre {
-    font-family: var(--title-font);
-    font-size: 9vh;
-    text-align: center;
-    margin-block-start: 0;
-    margin-block-end: 0;
-  }
-  
-  /* fin header */
+    align-items: flex-end;
+    flex-direction: flex-end;
+    justify-content: center;
+    font-family: 'bewareregular';
+    font-size: 50px; 
+    }
+
+.holderSocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20vh;
+  align-items: center;
+}
+
+.social > i {
+  font-size: 4vh;
+  cursor: pointer;
+  color: rgb(20, 20, 20);
+  width: auto;
+}
+
+.social > i:hover {
+  transition: ease-in 0.5s;
+  color: #847577;
+}
+
+/* fin header */ 
   
   main {
     width: 100%;

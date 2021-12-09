@@ -1,5 +1,26 @@
 @media screen and (max-width: 650px)
 {
+    /* début header */
+
+  .logo {
+    width: 22vw;
+  }
+
+  .title {
+    position: relative;
+    padding-bottom: 7vh;
+  }
+
+  .holderSocial {
+    width: 30vw;
+    align-items: flex-start;
+  }
+
+  .social > i {
+    font-size: 6vw;
+  }
+
+/* fin header */
     .parent {
     display: flex;
     justify-content: center;
@@ -10,9 +31,9 @@
     width: 300px;
     height: 300px;
     }
-
-    .titre {
-    font-size: 70px;
+    
+    .popup {
+        width: 324px;
     }
     /* début footer */
   
@@ -55,6 +76,5 @@
     width: 100%;
   }
 
-  }
-/* fin footer */
 }
+/* fin footer */
