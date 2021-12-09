@@ -72,14 +72,15 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 12vw;
+  width: 20vh;
   align-items: center;
 }
 
 .social > i {
-  font-size: 2vw;
+  font-size: 4vh;
   cursor: pointer;
   color: rgb(20, 20, 20);
+  width: auto;
 }
 
 .social > i:hover {
