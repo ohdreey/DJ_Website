@@ -1,6 +1,8 @@
 let containerMobile = document.querySelector(".slider-container-mobile"); // Mobile Slider
 let containerDesktop = document.querySelector(".slider-container"); // Desktop Slider
-
+let picturesMobile = document.querySelectorAll(".mySlides fadeM"); // Images mobile
+let rightArrow = document.querySelector(".rightArrow"); // Flèche de droite
+let leftArrow = document.querySelector(".leftArrow"); // Flèche de gauche
 
 let slideIndex = 1; // Init slid
 
@@ -32,7 +34,6 @@ function showSlides(n) { // Slider function desktop
 function showSlidesM(n) { // Slider function mobile
   let i;
   let slides = document.getElementsByClassName("mySlides fadeM");
-  let dots = document.getElementsByClassName("dot");
   
   if (n > slides.length) {
     slideIndex = 1
@@ -45,13 +46,8 @@ function showSlidesM(n) { // Slider function mobile
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
-  
-  for (i = 0; i < dots.length; i++) {
-   dots[i].className = dots[i].className.replace(" active", "");
-  }
-  
+
  slides[slideIndex-1].style.display = "block";
- dots[slideIndex-1].className += " active";  
 }
 
 let deviceSlider = () => { // Call slider function depending on device
@@ -59,23 +55,30 @@ let deviceSlider = () => { // Call slider function depending on device
   let resolution = window.innerWidth; // recupère la largeur de l'écran
 
   if(resolution > 650) {
-    console.log("Je suis un desktop");
     showSlides(slideIndex);
   }
   else if (resolution <= 650 ) {
-    console.log("Je suis un mobile");
     showSlidesM(slideIndex);
   }
 }
 
-deviceSlider();
-
-// // Next/previous controls
+// Concat slider index function
 function plusSlides(n) {
-showSlides(slideIndex += n);
+  slideIndex += n;
 }
 
-//add event listener au clic, fonction plusSlide avec en paramètre 1 flèche de droite et -1 en para sur flèche gauche
+rightArrow.addEventListener('click', function(){ // Function next control
+  plusSlides(1); // slider index + 1
+  deviceSlider(); // show Slider again
+}),
+  
+leftArrow.addEventListener('click', function(){ // Function previous control
+  plusSlides(-1); // slider index - 1
+  deviceSlider(); // show Slider again
+}),
+
+deviceSlider(); // set Slider for the first time when loading page
+
 
 // Thumbnail image controls
 function currentSlide(n) {

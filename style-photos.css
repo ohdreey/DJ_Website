@@ -66,7 +66,7 @@ h1 {
 
 html {
   background: rgb(132,117,119);
-  background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
+  background: linear-gradient(0deg, rgba(132,117,119,1) 10%, rgba(255,255,255,1) 90%);
 }
 
 main {
@@ -214,6 +214,8 @@ a:hover::after{
     height: auto;
   }
 
+  /* Coeur du Carousel */
+
   .slider-container {
     display: none
   }
@@ -255,7 +257,7 @@ a:hover::after{
   }
 
   html {
-    background: linear-gradient(0deg, rgba(132,117,119,1) 30%, rgba(255,255,255,1) 66%);
+    background: linear-gradient(0deg, rgba(132,117,119,1) 10%, rgba(255,255,255,1) 90%);
     height: 100%;
     width: auto;
   }
