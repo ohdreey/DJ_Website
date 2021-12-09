@@ -16,7 +16,6 @@
         <div class="holderImage">
           <img  class = "logo" src="https://i.ibb.co/L597QSL/logo-petit.png" alt="logo">
         </div>
-        <h1 class="titre">MIX</h1>
         <div class="holderSocial">
           <a href="https://www.instagram.com/stilldreyy/" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
           <a href="https://www.youtube.com/channel/UCFtyfmlb8tASqa5l8R0cptA" target="_blank" class="social"><i class="fab fa-youtube"></i></a>
@@ -25,51 +24,74 @@
         </div>
       </header>
     <main>
-            <div class="parent">
+        <h1 class="titre">MIX</h1>
+        <div class="popup">
+            <button id="close">&times;</button>
+            <div><p class="popupMessage">Bonne écoute ! </p></div>
+            <div class="holderHeadphone"><img class="headphones" src="assets/noun-headphone-4437942.png" alt="écouteurs"></div>
+        </div>
+
+        <div class="parent">
                 
                 <div class="div1">
                     <p class="mixTitre">Nervous Records - 30 years Anniversary </p>
-                    <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1164097993&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    <iframe id="soundcloud" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1164097993&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </div>
                 <div class="div2">
                     <p class="mixTitre">Take Over W/ Still Drey - Issa Love Story - Blacksquare Radio</p>
-                    <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1158929767&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    <iframe id="soundcloud" width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1158929767&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </div>  
                 <div class="div3">
                     <p class="mixTitre">Spicy Session W/ Still Drey - Paprika Records Radio</p>
-                    <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1106860171&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    <iframe id="soundcloud" width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1106860171&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </div>
                 <div class="div4">
                     <p class="mixTitre">GOLD - Just Some House Music To Make U Feel Good</p>
-                    <iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1052395999&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    <iframe id="soundcloud" width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1052395999&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                 </div>
-                </div>
+        </div>
       
             <main>
+        
+        <footer>
+            <nav>
+              <ul class="navbar" id="bottomNavbar">
+                <li>
+                  <a href="index.html">HOME</a>  
+                </li>
+                <li>
+                    <a href="bio.html">BIO</a>       
+                </li>
+                <li>
+                    <a href="mix.html">MIX</a> 
+                </li>
+                <li>
+                    <a href="videos.html">VIDEOS/LIVES</a>
+                </li>
+                <li>
+                    <a href="photos.html">PHOTOS</a>
+                </li>
+                <li>
+                    <a>EVENTS</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+                <li id="menuIcon"><a href="javascript:void(0);" class="icon" id="menuIcon" onclick="myFunction()">&#9776;</a></li>
+              </ul>
+            </nav>
+          </footer>
+          <script src="mixScript.js"></script>
+          <script>
+            function myFunction() {
+              const x = document.getElementById("bottomNavbar");
+              if (x.className === "navbar") {
+                x.className += " responsive";
+              } else {
+                x.className = "navbar";
+              }
+            }
+            </script>
 </body>
-<nav>
-    <ul>
-        <li>
-            <a href="index.html">HOME</a>  
-        </li>
-        <li>
-            <a href="bio.html">BIO</a>       
-        </li>
-        <li>
-            <a href="mix.html">MIX</a> 
-        </li>
-        <li>
-            <a href="videos.html">VIDEOS/LIVES</a>
-        </li>
-        <li>
-            <a href="photos.html">PHOTOS</a>
-        </li>
-        <li>
-            <a>EVENTS</a>
-        </li>
-        <li>
-            <a href="contact.html">CONTACT</a>
-        </li>
-    </ul>
-</nav>
+
 </html>
