@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-formulaire.css">
+    <title>Formulaire</title>
+    <script src="https://kit.fontawesome.com/0e2558cdea.js" crossorigin="anonymous"></script>
+</head>
+<header>
+    <div class="holderImage">
+      <img  class = "logo" src="https://i.ibb.co/L597QSL/logo-petit.png" alt="logo">
+    </div>
+    <div id="contactezSDMA">Contactez Still Drey</div>
+    <div class="holderSocial">
+      <a href="https://www.instagram.com/stilldreyy/" target="_blank" class="social"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/channel/UCFtyfmlb8tASqa5l8R0cptA" target="_blank" class="social"><i class="fab fa-youtube"></i></a>
+      <a href="https://twitter.com/stilldreyy" target="_blank" class="social"><i class="fab fa-twitter"></i></a>
+      <a href="https://soundcloud.com/still_drey" target="_blank" class="social"><i class="fab fa-soundcloud"></i></a>
+    </div>
+    
+  </header>
+<body>
+
+    <div class="globalFormMa">
+        <img class=ImgAudrey src =images/Audrey-smile.jpg alt="Still Drey">
+    
+     <form class="formulaireMA">
+
+        <div class="fromMa">
+            <label for="name"></label>
+            <br/>
+            <input type="text" id="nameMa" name="user_name" placeholder="Nom / Prénom">
+        </div>
+        <div class="replyMa">
+            <label for="mail"></label>
+            <br/>
+            <input type="email" id="mail" name="user_email" placeholder="Adresse Mail">
+        </div>
+        <div class="EventMa">
+            <label for="event"></label>
+            <br/>
+            <input id="evenMa" name="user_event" placeholder="Type d'évènement"></input>
+        </div> 
+        <div class="DayMa">
+            <label for="day"></label>
+            <br/>
+            <input id="ddayMa" type="date" name="user_day" placeholder="Date de l'évènement">
+        </div>
+        <div class="WhereMa">
+            <label for="Where"></label>
+            <br/>
+            <input id="WhereeMa" ; name="user_location" placeholder="Lieu de l'évènement">
+        </div>
+        <div class="NumberMa">
+            <label for="number"></label>
+            <br/>
+            <input id="numMa" name="user_number" placeholder="Nombre de personnes">
+        </div>
+        <div class="messageMa">
+            <label for="msg"></label>
+            <br/>
+            <input id="msgMa" name="user_message" placeholder="Votre message">
+        </div>
+       <div class="buttonnMa">
+            <button class="buttonMa" type="submit" value="submit">Envoyer</button>
+        </div>
+    </form>
+</div>
+
+    <footer>
+    <nav>
+      <ul class="navbar" id="bottomNavbar">
+        <li>
+          <a href="index.html">HOME</a>  
+        </li>
+        <li>
+            <a href="bio.html">BIO</a>       
+        </li>
+        <li>
+            <a href="mix.html">MIX</a> 
+        </li>
+        <li>
+            <a href="videos.html">VIDEOS/LIVES</a>
+        </li>
+        <li>
+            <a href="photos.html">PHOTOS</a>
+        </li>
+        <li>
+            <a>EVENTS</a>
+        </li>
+        <li>
+            <a href="contact.html">CONTACT</a>
+        </li>
+        <li id="menuIcon"><a href="javascript:void(0);" class="icon" id="menuIcon" onclick="myFunction()">&#9776;</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script>
+    function myFunction() {
+      const x = document.getElementById("bottomNavbar");
+      if (x.className === "navbar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navbar";
+      }
+    }
+
+// const messageb = "Votre message a bien été envoyé à Still Drey!"
+// document.addEventListener("submit", function (event){
+//     event.preventDefault();
+//     alert(messageb);
+// }
+// )
+
+
+     const messageb = document.querySelector(".buttonMa");
+     console.log(messageb);
+    messageb.addEventListener("click", () => {
+    alert("Votre message a bien été envoyé à Still Drey!");
+});
+
+    </script>
+</body>
+
+</html>
