@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'bewareregular';
+  src: url('beware__-webfont.woff2') format('woff2'),
+       url('beware__-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: rgb(240, 235, 235);
+  --secondary-color: rgb(20, 20, 20);
+  --third-color: #E5E6E4;
+  --text-color-light: rgb(240, 235, 235);
+  --text-color-dark: rgb(20, 20, 20);
+
+  --title-font: 'bewareregular', sans-serif;
+  --text-font: 'Montserrat', sans-serif; 
+}
+
 /* header */
 
 header{
@@ -49,6 +68,62 @@ header{
 }
 
 /* fin header */ 
+
+/* début navbar */
+nav {
+  width: 100%;
+  background-color: var(--secondary-color);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--secondary-color);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: var(--title-font);
+  font-size: 1.7vw;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+li a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #A6A2A2;
+  transition: width .3s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+#menuIcon {
+  display: none;
+}
+/* fin navbar */
   
   main {
     width: 100%;
