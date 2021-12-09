@@ -7,7 +7,7 @@
   font-style: normal;
 }
 
-/* header */
+  /* header */
 
 header{
   padding: 15px;
@@ -45,7 +45,7 @@ header{
   color: #847577;
 }
 
-/* fin header */
+  /* fin header */
 
 h1 {
   margin: 0;
@@ -74,7 +74,7 @@ main {
   height: 82%;
 }
 
-/* carousel desktop*/
+  /* carousel desktop*/
 
 .slider-container-mobile{
   display: none;
@@ -118,9 +118,13 @@ main {
   background-color: #717171;
 }
 
-/* fin carousel desktop*/
+.arrows{
+  display: none;
+}
 
-/* navbar desktop*/
+  /* fin carousel desktop*/
+
+  /* navbar desktop*/
 nav {
   width: 100%;
   background-color: var(--secondary-color);
@@ -171,11 +175,44 @@ li a::after {
 a:hover::after{
   width: 100%;
 }
-/* fin navbar desktop*/
+#menuIcon{
+  display: none;
+}
+
+  /* fin navbar desktop*/
+
+                                /* *****MEDIA QUEERIES***** */
+
 
 @media screen and (max-width: 650px) { 
 
   /* carousel mobile */
+
+    /* flèches */
+  .arrows{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    top: 50%;
+    position: absolute;
+  }
+  .rightArrow { 
+    width: 50px;
+    height: 50px;
+  }
+  .leftArrow{
+    width: 50px;
+    height: 50px;
+  }
+  .rightArrow img{ 
+    width: 100%;
+    height: auto;
+  } 
+  
+  .leftArrow img{ 
+    width: 100%;
+    height: auto;
+  }
 
   .slider-container {
     display: none
@@ -183,6 +220,7 @@ a:hover::after{
 
   .slider-container-mobile{
     display: flex;
+    position: relative;
   }
   
   .slideshow-container-mobile {
@@ -204,7 +242,7 @@ a:hover::after{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 95%;
   }
   
   .dot {
@@ -216,8 +254,8 @@ a:hover::after{
     background-color: #717171;
   }
 
-  body {
-    background: linear-gradient(0deg, rgba(132,117,119,1) 17%, rgba(255,255,255,1) 66%);
+  html {
+    background: linear-gradient(0deg, rgba(132,117,119,1) 30%, rgba(255,255,255,1) 66%);
     height: 100%;
     width: auto;
   }
@@ -226,11 +264,11 @@ a:hover::after{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 10vh;
+    padding-top: 1%;
   }
 
   header{
-    height: 20vh;
+    height: 15vh;
     padding: 2vh;
     display: flex;
     justify-content: space-between;
@@ -263,9 +301,11 @@ a:hover::after{
 
    /* début footer */
   
+
+
   ul {
     padding-inline-end: 0px;
-    height: 10%;
+    /* height: 10%; */
   }
   
   nav {
