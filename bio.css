@@ -215,7 +215,7 @@ a:hover::after {
   /* début header */
 
   .logo {
-    width: 18vw;
+    width: 22vw;
   }
 
   .title {
@@ -273,9 +273,6 @@ a:hover::after {
   }
 }
 
-/* #menuIcon {
-  position: fixed;
-} */
 
 @media screen and (max-width: 650px){
 

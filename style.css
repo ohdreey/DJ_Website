@@ -66,11 +66,9 @@ header{
 }
 
 .social > i {
-    font-size: 4vh;
-    cursor: pointer;
-    color: rgb(20, 20, 20);
-    width: auto;
-    
+  font-size: 4vh;
+  cursor: pointer;
+  color: rgb(20, 20, 20);
 }
 
 .social > i:hover {
