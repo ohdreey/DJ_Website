@@ -225,7 +225,8 @@ a:hover::after {
   top: 6vh;
   padding-bottom: 7vh;
   align-items:flex-start;
-  font-size: 3;
+  text-align: center;
+  
 }
 .slash { 
   display: none;
