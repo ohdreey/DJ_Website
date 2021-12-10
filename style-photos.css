@@ -179,10 +179,19 @@ a:hover::after{
   display: none;
 }
 
-@media screen and (max-width: 650px) { 
-  /* ARROWS*/
+  /* fin navbar desktop*/
 
-  .mySlides img{
+                                /* *****MEDIA QUEERIES***** */
+
+
+@media screen and (max-width: 650px) { 
+
+  /* carousel mobile */
+
+    /* flèches */
+  .arrows{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     top: 50%;
     position: absolute;
@@ -259,8 +268,6 @@ a:hover::after{
     align-items: flex-start;
     padding-top: 1%;
   }
-
-/* HEADER */
 
   header{
     height: 15vh;
@@ -343,5 +350,3 @@ a:hover::after{
   }
 /* fin footer */
   } 
-
-  
