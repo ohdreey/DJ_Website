@@ -90,7 +90,7 @@ section {
   max-height: 50vh;
   text-align: justify;
   margin-bottom: 0;
-  font-size: 1.5rem;
+  font-size: 2.6vh;
   margin-right: 7vw;
   margin-top: 22vh;
   font-family: var(--text-font);
@@ -252,11 +252,11 @@ a:hover::after {
   }
 
   #audreyBio {  
-    max-height: 25vh;
+    max-height: 40vh;
   }
 
   .biographie {
-    margin: 4vh 20vw;
+    margin: 1vh 20vw;
     text-align: justify;
     font-size: 2vh;
     font-family: var(--text-font);
@@ -278,11 +278,6 @@ a:hover::after {
 
   
 /* début footer */
-  
-  ul {
-    padding-inline-end: 0px;
-    height: 10%;
-  }
   
   nav {
     display: flex;
