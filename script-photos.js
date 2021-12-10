@@ -1,6 +1,5 @@
-let containerMobile = document.querySelector(".slider-container-mobile"); // Mobile Slider
-let containerDesktop = document.querySelector(".slider-container"); // Desktop Slider
-let picturesMobile = document.querySelectorAll(".mySlides fadeM"); // Images mobile
+// let containerMobile = document.querySelector(".slider-container-mobile"); // Mobile Slider
+// let containerDesktop = document.querySelector(".slider-container"); // Desktop Slider
 let rightArrow = document.querySelector(".rightArrow"); // Flèche de droite
 let leftArrow = document.querySelector(".leftArrow"); // Flèche de gauche
 
