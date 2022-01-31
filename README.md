@@ -6,13 +6,20 @@
 <h2> L'équipe </h2>
 
 <br/>
-ul>li.item$*6
-Audrey VALLIÉ 
-Mariem 
-Milhan
-Thomas
-Anoushka
-Yorgan 
+<ul>
+    <li>Audrey VALLIÉ</li>
+    <li>Mariem </li>
+    <li>Milhan</li>
+    <li>Thomas</li>
+    <li>Anoushka</li>
+    <li>Yorgan </li>
+</ul>
+ 
+
+
+
+
+
 <br/>
 <h2> Le projet </h2>
 
