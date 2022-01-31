@@ -6,6 +6,7 @@
 <h2> L'équipe </h2>
 
 <br/>
+ul>li.item$*6
 Audrey VALLIÉ 
 Mariem 
 Milhan
