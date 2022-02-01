@@ -2,9 +2,8 @@
   <img src="https://media.giphy.com/media/3ohryiYkE0DVwdLAys/giphy.gif" width="100"/>
 
  <div id="badges" align="center>
-
-  <a href="https://www.linkedin.com/in/audrey-valli%C3%A9-26a65118b/">
-    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+<a href="https://www.linkedin.com/in/audrey-valli%C3%A9-26a65118b/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
                                                                                                                             </div>
 </div
