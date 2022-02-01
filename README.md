@@ -36,9 +36,9 @@
 </div>
 <hr/>
 ### :fire: Mes Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=ohdreey&theme=dark&background=000000)](https://git.io/streak-stats)
-
-
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=ohdreey&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?user=ohdreey)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?user=ohdreey&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 <p>Nous avons été sollicités par un DJ désirant promouvoir son activité. Elle ne dispose que d'un instagram, un soundcloud et un youtube sur lesquels elle est active. Elle souhaite avoir une image plus professionnelle à l'aide d'un site qui lui permettra d'atteindre des promoteurs et organisateurs de soirées.
  <br/>
