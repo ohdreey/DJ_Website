@@ -33,7 +33,7 @@
 </div>
 <hr/>
 ### :fire: Mes Stats :
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=your-github-username&theme=dark&background=000000)](https://git.io/streak-stats)
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=ohdreey&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
 
 
 <p>Nous avons été sollicités par un DJ désirant promouvoir son activité. Elle ne dispose que d'un instagram, un soundcloud et un youtube sur lesquels elle est active. Elle souhaite avoir une image plus professionnelle à l'aide d'un site qui lui permettra d'atteindre des promoteurs et organisateurs de soirées.
