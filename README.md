@@ -15,7 +15,7 @@
 
 <hr/>
 
-### 👩‍💻: Qui suis-je ? : Je suis développeuse Full-stack junior <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> sur Paris.
+👩‍💻: Qui suis-je ? : Je suis développeuse Full-stack junior <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> sur Paris.
   
 - :telescope: - React.JS & Node.JS - Frontend and backend pour développer des sites internets et des applications.
 
@@ -25,7 +25,7 @@
                                                                                     
                                                                                     <h2>La cliente </h2>
 <hr/>
-### :hammer_and_wrench: Langages et outils utilisés sur ce projet:
+:hammer_and_wrench: Langages et outils utilisés sur ce projet:
 <div>
  
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
@@ -34,7 +34,7 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" alt="JavaScript" width="40" height="40"/>&nbsp;
 
 </div>
-<hr/>
+
 
 <br/>
 <h2> Le projet </h2>
@@ -48,7 +48,7 @@
  <br/>
  
 <h2> L'équipe </h2>
-<hr/>
+
 <br/>
 <ul>
     <li>Mariem </li>
@@ -58,10 +58,15 @@
     <li>Yorgan </li>
    <li>Audrey VALLIÉ</li>
 </ul>
- 
-
-
-
-
 
 <h2>Caractéristiques
+<ul>
+ <li>Page d'accueil avec un lecteur audio et un background fait en equilizer</li>
+ <li>Une page mix proposant l'écoute des différents mix du DJ</li>
+ <li>Un carroussel de photos</li>
+ <li>Un formulaire </li>
+ </ul>
+
+
+<br/>
+  <h2> Captures d'écran</h2>
