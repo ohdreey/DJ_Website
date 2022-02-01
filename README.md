@@ -23,7 +23,7 @@
 
 - :mailbox:Me contacter: [![Linkedin Badge](https://img.shields.io/badge/-Audrey-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/audrey-valli%C3%A9-26a65118b/)
                                                                                     
-                                                                                    <h2>La cliente </h2>
+                                                                                  
 <hr/>
 :hammer_and_wrench: Langages et outils utilisés sur ce projet:
 <div>
@@ -43,7 +43,7 @@
 </br>
 <p>L'objectif était de créer un site statique en  HTML /CSS/ JS.</p>
 </br>
-
+  <h2>La cliente </h2>
 <p>Nous avons été sollicités par un DJ désirant promouvoir son activité. Elle ne dispose que d'un instagram, un soundcloud et un youtube sur lesquels elle est active. Elle souhaite avoir une image plus professionnelle à l'aide d'un site qui lui permettra d'atteindre des promoteurs et organisateurs de soirées.
  <br/>
  
