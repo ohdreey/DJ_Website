@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/cst5AXzPxRLyIwMNsV/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/cst5AXzPxRLyIwMNsV/giphy.gif" width="100px"/>
 
  <div id="badges">
 <a href="https://www.linkedin.com/in/audrey-valli%C3%A9-26a65118b/">
