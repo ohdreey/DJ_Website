@@ -7,7 +7,10 @@
   </a>
                                                                                                                             </div>
 </div
-                                                                                                                            ><h2>La cliente </h2>
+  <h1>
+ Bienvenue ! 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+</h1>                                                                                                                          ><h2>La cliente </h2>
 <hr/>
 
 <p>Nous avons été sollicités par un DJ désirant promouvoir son activité. Elle ne dispose que d'un instagram, un soundcloud et un youtube sur lesquels elle est active. Elle souhaite avoir une image plus professionnelle à l'aide d'un site qui lui permettra d'atteindre des promoteurs et organisateurs de soirées.
