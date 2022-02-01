@@ -1,11 +1,4 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/cst5AXzPxRLyIwMNsV/giphy.gif" width="100px"/>
-
- <div id="badges">
-<a href="https://www.linkedin.com/in/audrey-valli%C3%A9-26a65118b/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-      <h1>
+<h1>
  Bienvenue ! 
 </h1>                                                                                                                        
 </div
