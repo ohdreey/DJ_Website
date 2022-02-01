@@ -7,13 +7,13 @@
   </a>
       <h1>
  Bienvenue ! 
-  <img src="https://media.giphy.com/media/mUtfRO0EkV7fZyTs0G/giphy.gif" width="30px"/>
+  <img src="https://media.giphy.com/media/cst5AXzPxRLyIwMNsV/giphy.gif" width="30px"/>
 </h1>                                                                                                                        
 </div
                                                                                                                                 
      <br/>                                                                                                                         
 <div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+  <img src="https://media.giphy.com/media/mUtfRO0EkV7fZyTs0G/giphy.gif" width="600" height="300"/>
 </div>
 
 
