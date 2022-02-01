@@ -18,7 +18,7 @@
 
 - :zap: J'aime créer & réaliser ( broderie, cirer des bougies, activités manuelles), j'aime la musique (DJ) et cuisiner.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Audrey VALLIÉ-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/audrey-valli%C3%A9-26a65118b/)
+- :mailbox:Me contacter: [![Linkedin Badge](https://img.shields.io/badge/-Audrey-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/audrey-valli%C3%A9-26a65118b/)
                                                                                     
                                                                                     <h2>La cliente </h2>
 <hr/>
