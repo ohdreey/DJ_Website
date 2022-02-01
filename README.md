@@ -16,9 +16,9 @@
   
 - :telescope: - React.JS & Node.JS - Frontend and backend pour développer des sites internets et des applications.
 
-- :zap: In my free time, I solve problems on GeeksforGeeks and read tech articles.
+- :zap: J'aime créer & réaliser ( broderie, cirer des bougies, activités manuelles), j'aime la musique (DJ) et cuisiner.
 
-- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](your-linkedin-url)
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Audrey VALLIÉ-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/audrey-valli%C3%A9-26a65118b/)
                                                                                     
                                                                                     <h2>La cliente </h2>
 <hr/>
