@@ -7,7 +7,6 @@
   </a>
       <h1>
  Bienvenue ! 
-  <img src="https://media.giphy.com/media/cst5AXzPxRLyIwMNsV/giphy.gif" width="30px"/>
 </h1>                                                                                                                        
 </div
                                                                                                                                 
