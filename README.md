@@ -59,7 +59,7 @@
    <li>Audrey VALLIÉ</li>
 </ul>
 
-<h2>Caractéristiques
+<h2>Caractéristiques</h2>
 <ul>
  <li>Page d'accueil avec un lecteur audio et un background fait en equilizer</li>
  <li>Une page mix proposant l'écoute des différents mix du DJ</li>
@@ -69,4 +69,8 @@
 
 
 <br/>
-  <h2> Captures d'écran</h2>
+
+<h2>Dans le répertoire du projet, vous pouvez exécuter :</h2>
+<p>npm install</p>
+ <p>npm start</p>
+<p>Ces commandes installent les dépendances et démarrent l'application en mode développement.</p>
